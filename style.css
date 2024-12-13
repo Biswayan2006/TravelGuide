@@ -53,7 +53,7 @@ header h1 {
     font-size: 1rem;
     padding: 0.5em 1em;
     border-radius: 4px;
-    transition: background 0.3s;
+    transition: background-color 0.3s;
 }
 
 #nav-element ul li a:hover {
@@ -192,13 +192,3 @@ footer address {
     color: #ccc;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    #nav-element ul {
-        flex-direction: column;
-    }
-
-    #nav-element ul li {
-        margin: 0.5em 0;
-    }
-}

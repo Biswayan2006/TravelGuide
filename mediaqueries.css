@@ -1,0 +1,10 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    #nav-element ul {
+        flex-direction: column;
+    }
+
+    #nav-element ul li {
+        margin: 0.5em 0;
+    }
+}
